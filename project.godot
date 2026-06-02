@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="YuriJam2"
+run/main_scene="uid://bpa1warlmx5mo"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 

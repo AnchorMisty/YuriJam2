@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bpa1warlmx5mo"]
+
+[ext_resource type="Script" uid="uid://qilvewogfacl" path="res://scripts/Menu+/start_button.gd" id="1_oleid"]
+
+[node name="Control" type="Control" unique_id=1173901096]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bg" type="TextureRect" parent="." unique_id=467093075]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="." unique_id=1469069703]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.42239583
+anchor_top = 0.70092595
+anchor_right = 0.58489585
+anchor_bottom = 0.79444444
+theme_override_font_sizes/font_size = 50
+text = "start"
+script = ExtResource("1_oleid")
+metadata/_edit_use_anchors_ = true
