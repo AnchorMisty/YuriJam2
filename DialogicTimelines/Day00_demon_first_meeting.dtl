@@ -1,0 +1,14 @@
+这里有一些环境描写，非常有氛围感
+随后便是一系列谜语般的回忆，让读者摸不着头脑
+join Lin right
+Lin: *一堆抱怨之辞*
+leave Lin
+join TheDemon center
+TheDemon: *一堆鬼话*
+join Lin right
+join TheDemon left
+Lin: *大惊
+TheDemon: *更多的鬼话*
+leave TheDemon
+leave Lin
+测试片段结束

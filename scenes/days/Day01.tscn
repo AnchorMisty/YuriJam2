@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://75gvthsuo4nv"]
 
+[ext_resource type="Texture2D" uid="uid://bfrnyeq5dbr5e" path="res://assets/bg/bg_room01.png" id="1_nswlp"]
+[ext_resource type="Script" uid="uid://cim10220yclhg" path="res://scripts/days/day_01.gd" id="1_oc5vd"]
+
 [node name="Day01" type="Control" unique_id=308117297]
 layout_mode = 3
 anchors_preset = 15
@@ -7,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_oc5vd")
 
 [node name="Button" type="Button" parent="." unique_id=708824222]
 layout_mode = 0
@@ -16,3 +20,12 @@ offset_right = 1819.0
 offset_bottom = 886.0
 theme_override_font_sizes/font_size = 50
 text = "结束第一天"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=544486200]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_nswlp")
