@@ -10,14 +10,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="bg" type="TextureRect" parent="." unique_id=467093075]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
 [node name="StartButton" type="Button" parent="." unique_id=1469069703]
 layout_mode = 1
 anchors_preset = -1
@@ -29,3 +21,23 @@ theme_override_font_sizes/font_size = 50
 text = "start"
 script = ExtResource("1_oleid")
 metadata/_edit_use_anchors_ = true
+
+[node name="ContinueButton" type="Button" parent="." unique_id=2085181806]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.42239583
+anchor_top = 0.8518519
+anchor_right = 0.58489585
+anchor_bottom = 0.9453704
+theme_override_font_sizes/font_size = 50
+text = "continue"
+metadata/_edit_use_anchors_ = true
+
+[node name="bg" type="TextureRect" parent="." unique_id=467093075]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

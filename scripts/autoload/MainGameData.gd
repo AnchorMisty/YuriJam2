@@ -7,9 +7,10 @@ extends Node
 
 ### ————————————————————————————————数据区域————————————————————————————————————
 
-var lang := "zh_cn"
+var lang = "zh_cn"
 
-var day = 1
+var day_now = 1
+var night_now = 1
 
 var chara_names = {
 	"Lin": "林",
