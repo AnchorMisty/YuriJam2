@@ -21,8 +21,8 @@ func _process(delta: float) -> void:
 3.设置场景 跳转 √
 4.完善设置场景，修改名字变量，跳转到intro过剧情 √
 
-5.跳转到day中转站
-5.day中转站跳转day1
+5.跳转到day中转站 √
+5.day中转站跳转day1 √
 
 【continue按钮建设中】
 '''

@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://4uylae0dj2vt"]
 
+[ext_resource type="Script" uid="uid://sd855go53o8a" path="res://scripts/flow/day_scene.gd" id="1_yl7ya"]
+
 [node name="Control" type="Control" unique_id=132358182]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +9,4 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_yl7ya")

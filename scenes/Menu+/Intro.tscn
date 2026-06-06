@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://b657gnrtdp3rn"]
 
+[ext_resource type="Script" uid="uid://dqvoqedjc80nh" path="res://scripts/days/intro.gd" id="1_1ubgt"]
+[ext_resource type="Texture2D" uid="uid://bfrnyeq5dbr5e" path="res://assets/bg/bg_room01.png" id="1_sd3ba"]
+
 [node name="Control" type="Control" unique_id=419306038]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +10,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_1ubgt")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1023889136]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_sd3ba")
